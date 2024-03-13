@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.navbarHeader {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 40px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbarHeader ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.newTaskForm {
+  margin-top: 50px;
+  height: 54px;
+  bottom: -27px;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.newTaskForm input {
+  height: 100%;
+  color: #fff;
+  background: transparent;
+  border: 3px solid rgb(10, 121, 47);
+  border-radius: 8px;
+  padding: 0 16px;
+  font-size: 16px;
+  outline: none;
+  width: 880px;
+}
+
+.newTaskForm button {
+  height: 100%;
+  background: rgb(10, 121, 47);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid rgb(10, 121, 47);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 8px 30px;
+  transition: all .5s;
+}
+
+.newTaskForm button:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
