@@ -42,6 +42,9 @@
   outline: none;
   width: 880px;
 }
+.newTaskForm input:hover {
+  border-color: #fff;
+}
 
 .newTaskForm button {
   height: 100%;
