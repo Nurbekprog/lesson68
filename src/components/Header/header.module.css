@@ -15,11 +15,13 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .navbarHeader ul {
   display: flex;
   align-items: center;
   gap: 32px;
 }
+
 .newTaskForm {
   margin-top: 50px;
   height: 54px;
@@ -41,7 +43,9 @@
   font-size: 16px;
   outline: none;
   width: 880px;
+  transition: all .7s;
 }
+
 .newTaskForm input:hover {
   border-color: #fff;
 }
